@@ -58,11 +58,12 @@ window.addEventListener('load', function() {
       /* Creando nuevos elementos de lista */
         var textAreaList = document.createElement('textarea');
         var btnInputList = document.createElement('button');
-        
+
         /* Agragando Atributos */
         btnInputList.setAttribute('class', 'btn-style');
         textAreaList.setAttribute('class', 'text-area-style');
         btnInputList.textContent = 'Añadir';
+
         /* Agregando al HTML */
         containerList.appendChild(textAreaList);
         textAreaList.focus(); /* Dar foco al textarea*/
