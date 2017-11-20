@@ -3,11 +3,13 @@ window.addEventListener('load', function() {
 
   boxAddList.addEventListener('click', function() {
     /* creando etiquetas */
+
     var container = document.createElement('div');
     var form = document.createElement('input');
     var btnSave = document.createElement('button');
     var btnClose = document.createElement('i');
     var parentSection = document.getElementById('container');
+    
     /* Agregando al html */
     container.appendChild(form);
     container.appendChild(btnSave);
