@@ -49,7 +49,7 @@ window.addEventListener('load', function() {
       containerList.appendChild(boxInput);
       parentSection.appendChild(containerList);
       parentSection.insertBefore(containerList, container);
-      
+
       /* Agregando Atributos */
       containerList.setAttribute('class', 'box-form-list');
       boxInput.setAttribute('class', 'box-input-style');
@@ -58,6 +58,7 @@ window.addEventListener('load', function() {
       /* Creando nuevos elementos de lista */
         var textAreaList = document.createElement('textarea');
         var btnInputList = document.createElement('button');
+        
         /* Agragando Atributos */
         btnInputList.setAttribute('class', 'btn-style');
         textAreaList.setAttribute('class', 'text-area-style');
