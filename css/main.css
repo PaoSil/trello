@@ -7,9 +7,10 @@
 
 body{
     background-color: #1d8dc2;
-    background-size: 100% /*100vh*/;
+    background-size: 100%;
 }
 
+/*Estilos a encabezado*/
 header{
     background-color: rgba(25, 27, 25,0.3);
     height: 40px;
