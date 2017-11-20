@@ -9,7 +9,7 @@ window.addEventListener('load', function() {
     var btnSave = document.createElement('button');
     var btnClose = document.createElement('i');
     var parentSection = document.getElementById('container');
-    
+
     /* Agregando al html */
     container.appendChild(form);
     container.appendChild(btnSave);
@@ -49,6 +49,7 @@ window.addEventListener('load', function() {
       containerList.appendChild(boxInput);
       parentSection.appendChild(containerList);
       parentSection.insertBefore(containerList, container);
+      
       /* Agregando Atributos */
       containerList.setAttribute('class', 'box-form-list');
       boxInput.setAttribute('class', 'box-input-style');
